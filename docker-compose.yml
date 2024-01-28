@@ -1,0 +1,10 @@
+
+services:
+   redis-server:
+    image:redis
+
+
+
+   node-app:
+    restart: always
+    port: 3000:8001
